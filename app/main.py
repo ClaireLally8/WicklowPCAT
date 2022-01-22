@@ -14,4 +14,20 @@ def about_me():
 def arts_about():
   return render_template('about_arts.html')
 
+@app.route('/services')
+def services():
+  return render_template('services.html')
+
+@app.route('/theraputic-space')
+def the_space():
+  return render_template('the_space.html')
+
+@app.route('/resources-and-faq')
+def FAQ():
+  return render_template('FAQ.html')
+
+@app.route('/contact')
+def contact():
+  return render_template('contact.html')
+
     
