@@ -11,7 +11,7 @@
      <div class="container my-5">
          <div class="row">
              <div class="col-sm-12 col-md-6 col-lg-6 p-5">
-                 <img src = "static/images/art.jpeg" alt = "Art" class="img-fluid">
+                 <img src="{{ url_for('static', filename='images/art.jpeg') }}" alt = "Art" class="img-fluid">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 pt-5">
                 <h5>Art</h5>
@@ -23,7 +23,7 @@
      <div class="container my-5">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 p-5">
-                <img src = "static/images/clay.jpg" alt = "Art" class="img-fluid">
+                <img src="{{ url_for('static', filename='images/clay.jpg') }}" alt = "Art" class="img-fluid">
            </div>
            <div class="col-sm-12 col-md-6 col-lg-6 pt-5 order-md-first">
                <h5>Clay</h5>
@@ -35,7 +35,7 @@
     <div class="container my-5">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 p-5">
-                <img src = "static/images/dance_movement.jpeg" alt = "Art" class="img-fluid">
+                <img src="{{ url_for('static', filename='images/dance_movement.jpeg') }}" alt = "Art" class="img-fluid">
            </div>
            <div class="col-sm-12 col-md-6 col-lg-6 pt-5">
                <h5>Dance & Movement</h5>
@@ -47,7 +47,7 @@
     <div class="container my-5">
        <div class="row">
            <div class="col-sm-12 col-md-6 col-lg-6 p-5">
-               <img src = "static/images/music.jpeg" alt = "Art" class="img-fluid">
+               <img src = "{{ url_for('static', filename='images/music.jpeg') }}" alt = "Art" class="img-fluid">
           </div>
           <div class="col-sm-12 col-md-6 col-lg-6 pt-5 order-md-first">
               <h5>Music</h5>
@@ -59,7 +59,7 @@
     <div class="container my-5">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 p-5">
-                <img src = "static/images/sand.jpeg" alt = "Art" class="img-fluid">
+                <img src = "{{ url_for('static', filename='images/sand.jpeg') }}" alt = "Art" class="img-fluid">
            </div>
            <div class="col-sm-12 col-md-6 col-lg-6 pt-5">
                <h5>Sandplay</h5>

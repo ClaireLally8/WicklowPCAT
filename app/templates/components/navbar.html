@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg py-3">
     <div class="container-fluid">
-    <a class="d-lg-none navbar-brand" href="index.html"><img src="static/images/logo.jpeg" alt="Logo" height="50"></a>
+    <a class="d-lg-none navbar-brand" href="index.html"><img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="Logo" height="50"></a>
       <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
       <div class="collapse navbar-collapse justify-content-around" id="navbarCenteredExample">
         <ul class="navbar-nav mb-2 mb-lg-0">
@@ -12,7 +12,7 @@
                 </ul>
               </li>
             <li class="nav-item nav-text px-3"><a class="nav-link" href="{{ url_for('services') }}">Services</a></li>
-            <li class="nav-item d-none d-lg-block px-3"><a class="nav-link logo" aria-current="page" href="index.html"><img src="static/images/logo.jpeg" alt="Logo" height="65"></a></li>
+            <li class="nav-item d-none d-lg-block px-3"><a class="nav-link logo" aria-current="page" href="index.html"><img src="{{ url_for('static', filename='images/logo.jpeg') }}"  alt="Logo" height="65"></a></li>
             <li class="nav-item nav-text px-3"><a class="nav-link active" aria-current="page" href="{{ url_for('the_space') }}">Theraputic Space</a></li>
             <li class="nav-item nav-text px-3"><a class="nav-link" href="{{ url_for('FAQ') }}">FAQ & Resources</a></li>
             <li class="nav-item nav-text px-3"><a class="nav-link" href="{{ url_for('contact') }}">Contact</a></li>
