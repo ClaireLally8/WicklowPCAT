@@ -22,3 +22,40 @@ faq = [{
   "question": "What to say?",
   "answer": "When the young person asks why they are to attend play therapy sessions  - give them a truthful answer e.g.  ‘you seem to be having difficulties with ….. and we feel play therapy might help you with these issues’."
 }]
+
+resources = [{
+  "name": "Play Therapy Ireland",
+  "url":"https://playtherapy.ie/",
+  "image":"../static/images/play_therapy_ireland.jpeg"
+},
+{
+  "name": "Professional Standards Authority",
+  "url":"https://www.professionalstandards.org.uk/",
+  "image":"../static/images/professional_standards_authority.jpeg"
+},
+{
+  "name": "Academy of Play and Child Psychotherapy",
+  "url":"https://apac.org.uk/",
+  "image":"../static/images/apac.jpeg"
+},
+{
+  "name": "The Irish Childhood Bereavement Network",
+  "url":"https://www.childhoodbereavement.ie/",
+  "image":"../static/images/childhood_berevement_network.jpeg"
+},
+{
+  "name": "The Child and Family Agency",
+  "url":"https://www.tusla.ie/",
+  "image":"../static/images/tusla.png"
+},
+{
+  "name": "Rainbows Ireland",
+  "url":"https://www.rainbowsireland.ie/",
+  "image": "../static/images/rainbows.png"
+},
+{
+  "name": "Shapes of Grief",
+  "url":"https://www.shapesofgrief.com/",
+  "image": "../static/images/shapes_of_grief.jpg"
+}]
+

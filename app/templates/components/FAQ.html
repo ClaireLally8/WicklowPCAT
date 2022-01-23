@@ -4,13 +4,11 @@
         {% for q in faq %}
         <button class="accordion accordionhead">{{q.question}}</button>
         <div class="accordion-content">
-          <hr class="my-4">
-          <div class="row accordioninside">
+          <div class="row accordioninside my-5">
             <div class="col-12">
               <p>{{q.answer}}</p>
             </div>
           </div>
-          <hr class="my-4">
         </div>
         {% endfor %}
       </div>
