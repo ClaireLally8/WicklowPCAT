@@ -1,0 +1,73 @@
+button.accordion {
+    width: 100%;
+    background-color: #37475F;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #B3C1CE;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+  }
+  
+  button.accordion:after {
+    content: '\f055';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+  
+  }
+  button.accordion.is-open:after {
+    content: '\f056';
+  }
+  button.accordion:hover,
+  button.accordion.is-open {
+    background-color: #CDA21F;
+    color: #253443;
+    -webkit-transition: background-color 300ms linear, color 1s linear;
+    -moz-transition: background-color 300ms linear, color 1s linear;
+    -o-transition: background-color 300ms linear, color 1s linear;
+    -ms-transition: background-color 300ms linear, color 1s linear;
+    transition: background-color 300ms linear, color 1s linear;
+  }
+  .accordionhead {
+      font-family: Montserrat;
+      font-weight:300;
+      letter-spacing: 0.2px;
+  }
+  .subjectheader {
+      font-family: "Roboto";
+      font-weight:300;
+      letter-spacing:0.2px;
+  }
+  .accordion-content {
+    background-color: #FBFCFB;
+    padding: 0 1.2rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+  
+  .accordioncontainer {
+    margin-top: 3rem;
+    width: 80%;
+  }
+  .accordionicon {
+      color:#253443;
+      text-decoration:none;
+  }
+  .accordionicon:hover {
+      color:#CDA21F;
+      -webkit-transition: color 1s;
+      -moz-transition:    color 1s;
+      -ms-transition:     color 1s;
+      -o-transition:      color 1s;
+  }
+  .accordioninside {
+      padding:0.2rem;
+      font-family: "Montserrat";
+      font-weight: 300;
+      letter-spacing: 0.3px;
+      line-height:16px;
+  }
