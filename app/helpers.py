@@ -59,3 +59,14 @@ resources = [{
   "image": "../static/images/shapes_of_grief.jpg"
 }]
 
+posters = [{
+  "name": "When a child loses someone special",
+  "description": "A poster I designed for a Dublin school to assist staff in their support of bereaved students",
+  "image": "../static/images/children_grief.jpeg"
+},
+{
+  "name": "Gastrointestinal Nursing",
+  "description": "Creative arts therapy in stoma care: workshops exploring grief, body image and sexual intimacy - published in the Gastrointestinal Nursing Journal",
+  "image": "../static/images/gastrointestinal_nursing.jpeg"
+}]
+

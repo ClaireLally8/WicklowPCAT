@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect
 
-from .helpers import faq, resources
+from .helpers import faq, resources, posters
 
 app= Flask(__name__)
 
@@ -26,7 +26,7 @@ def the_space():
 
 @app.route('/resources-and-faq')
 def FAQ():
-  return render_template('FAQ.html', faq = faq, resources = resources)
+  return render_template('FAQ.html', faq = faq, resources = resources, posters=posters)
 
 @app.route('/contact')
 def contact():
