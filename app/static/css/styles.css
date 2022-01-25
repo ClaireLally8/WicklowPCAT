@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
 :root {
-	--p-darkpurple: #642D2C;
-	--p-navy: #626D71;
-	--s-gold: #DDBC95;
-	--s-gray:#CDCDC0;
-	--s-purple: #654D60;
+	--p-darkpurple: #c3613f;
+	--p-navy: #1C3D41;
+	--s-gold: #cf9c20;
+	--s-gray:#6c8893;
+	--s-purple: #693E3B;
 }
 * {
 	box-sizing: border-box;
@@ -99,6 +99,7 @@ span {
 .nav-text {
 	padding-top:1rem;
 }
+
 .overlay-text {
 	color:white;
 	text-shadow: 20px 20px 10px #000000;
@@ -120,7 +121,7 @@ span {
 }
 .publicity-icons {
 	font-size:2rem;
-	color:var(--s-gold);
+	color:var(--s-purple);
 }
 .publicity-par {
 	color: var(--p-navy);
