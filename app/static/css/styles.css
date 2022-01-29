@@ -105,6 +105,26 @@ label {
 	color:var(--p-navy);
 	font-weight:300;
 }
+.footer-heading{
+	color:var(--p-darkpurple);
+	font-family:lato;
+	font-weight:700;
+}
+.footer-icon {
+	color:var(--p-darkpurple);
+}
+.footer-text{ 
+	font-family:Lato;
+	font-weight:300;
+	font-size:15px;
+}
+.footer-link {
+	color:var(--p-navy);
+}
+.footer-link:hover{
+	color:var(--p-darkpurple);
+	text-decoration: underline;
+}
 .navbar {
 	background-color: white;
 	font-family: 'Playfair Display';
