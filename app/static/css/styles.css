@@ -86,7 +86,6 @@ h6 {
 	color: black;
 	font-family:Lato;
 	font-weight:300;
-	letter-spacing:1px;
 }
 p {
 	font-family: Lato, sans-serif;
@@ -100,13 +99,25 @@ span {
 	font-style: normal;
 	color:var(--s-purple);
 }
+label {
+	font-family: Lato;
+	font-size:1rem;
+	color:var(--p-navy);
+	font-weight:300;
+}
 .navbar {
 	background-color: white;
 	font-family: 'Playfair Display';
 }
 .nav-link, .dropdown-item {
 	font-size:1.1rem;
-	color: black;
+	color: var(--p-navy);
+}
+.nav-link:focus, .nav-link:hover, .nav-tabs .nav-link.active {
+	color:var(--s-purple);
+}
+.nav-tabs .nav-link.active {
+	border-color:var(--s-purple);
 }
 .nav-text {
 	padding-top:1rem;
@@ -171,7 +182,15 @@ span {
 	max-width:auto;
 }
 .btn {
-    background-color:var(--s-gray);
+    background-color:var(--s-gold);
+	color:white;
+	font-size:12px;
+	font-weight:400;
+	font-family:Lato;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	color:white;
+	opacity:100;
 }
 @media (max-width:900px){
 	#cover-text {

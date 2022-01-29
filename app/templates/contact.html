@@ -1,4 +1,12 @@
 {% extends "structure.html" %}
+{% block additional_js %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_CxFa6tB70I5YuaF1WsEfI");
+})();
+</script>
+{% endblock %}
 {% block content %}
 <h1 class="text-center mt-5 mb-2">Get in Touch</h1>
 <p class="text-center">For any enquiries you may have, please send me an email to get in touch.</p>
@@ -6,15 +14,42 @@
    <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 my-5">
          <p class="text-center sub-heading">Madeleine Grant, MSc Bereavement Studies, RGN, Accredited Play Therapist, Diploma in Sand Play Therapy  and Certificate in Art Therapy</p>
-
-         <div class="row my-5">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-               <p>Rathdrum,<br>Co. Wickow</p>
+         <div class="row">
+               <div class="col-sm-4 col-md-6 col-lg-6">
+                  <p>Rathdrum,<br>Co. Wickow</p>
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-6">
+               <p>+353 87 2981642<br>wickowcreativeartstherapy@gmail.com</p>
          </div>
-         <div class="col-sm-6 col-md-6 col-lg-6">
-            <p> +353 87 2981642<br>wickowcreativeartstherapy@gmail.com</p>
+         </div>
+      <div class="mapouter d-none d-lg-block">
+         <div class="gmap_canvas ratio ratio-16x9">
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Rathdrum,%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+         </div>
       </div>
-      </div>
+   </div>
+
+   <div class="col-sm-12 col-md-12 col-lg-6 my-5">
+      <form class="mx-4" action = "GET, POST" id = "contact-form">
+         <label class="my-2" for="name">Full Name</label>
+         <input type="text" name="name" id="name" class="form-control" required>
+         <label class="my-2"  for="email">Email Address</label>
+         <input type="email" name="email" id="email" class="form-control" required>
+         <label class="my-2"  for="tel">Phone Number</label>
+         <input type="tel" name="tel" id="tel" class="form-control" required>
+         <label class="my-2"  for="enquiry">Enquiry</label>
+         <textarea name="enquiry" id="enquiry" class="form-control mb-5" required></textarea>
+         <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+               <button class="btn btn-block py-3 px-4" type="submit">Submit Enquiry</button>
+            </div>
+         </div>
+      </form>
+   </div>
+</div>
+<div class="row d-lg-none">
+   <div class="col-sm-12 col-md-12 col-lg-6">
       <div class="mapouter">
          <div class="gmap_canvas ratio ratio-16x9">
             <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Rathdrum,%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
@@ -22,19 +57,10 @@
          </div>
       </div>
    </div>
-   <div class="col-sm-12 col-md-12 col-lg-6 my-5">
-      <form>
-         <label for="full_name">Full Name</label>
-         <input type="text" name="full_name" id="full_name" class="form-control">
-         <label for="email">Email Address</label>
-         <input type="email" name="email" id="email" class="form-control">
-         <label for="phone">Phone Number</label>
-         <input type="tel" name="phone" id="phone" class="form-control">
-         <label for="enquiry">Enquiry</label>
-         <textarea name="enquiry" id="enquiry" class="form-control"></textarea>
-         <button type="submit">Submit Enquiry</button>
-      </form>
-   </div>
 </div>
 </div>
+{% endblock %}
+
+{% block postload_js %}
+<script src="{{ url_for('static', filename='js/email.js') }}"></script>
 {% endblock %}
