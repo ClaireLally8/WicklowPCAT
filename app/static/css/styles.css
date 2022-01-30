@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
 
 :root {
-	--p-darkpurple: #c3613f;
-	--p-navy: #1C3D41;
-	--s-gold: #cf9c20;
-	--s-gray:#6c8893;
-	--s-purple: #693E3B;
+	--navy: #253443;
+	--red:#642d2c;
+	--gold: #CDA21F;
+	--grey: #37475F;
 }
 * {
 	box-sizing: border-box;
@@ -36,111 +35,68 @@ h1 {
 	font-weight: 700;
 	line-height: 60px;
 	font-family:'Playfair Display';
-	color:var(--p-navy);
+	color:var(--red);
 }
 h2 {
-	font-size: 1.9em;
-	font-style: normal;
+	font-size: 2.2em;
 	font-weight: 700;
 	letter-spacing: 1.5px;
 	line-height: 60px;
 	font-family:'Playfair Display';
-	color:var(--p-navy);
+	color:var(--red);
 }
 h3 {
 	font-family:'Playfair Display';
-	font-size:24px;
-	font-weight:600;
-	color:var(--s-purple);
+	font-size:1.7rem;
+	font-weight:700;
+	color:var(--red);
 	letter-spacing: 1px;
 	padding-bottom:0.8em;
 	padding-top:0.8em;
 }
 h4 {
-	font-family:'Lato';
+	font-family:'Roboto';
 	font-weight:500;
-	font-size:18px;
-	color:var(--p-navy);
+	font-size:1.5rem;
+	color:var(--red);
 }
 h5{
-	font-family:'Lato';
-	font-weight:300;
-	color:var(--p-navy);
+	font-family:'Roboto';
+	font-weight:500;
+	color:var(--red);
 	line-height: 1.3;
-	letter-spacing: 0.3px;
-	font-size:18px;
+	letter-spacing: 0.5px;
+	font-size:1.3rem;
 }
 h5 a {
-	color:var(--p-navy);
-}
-h5 a strong {
-	border-bottom: 1px solid var(--p-navy);
-     padding-bottom: 1px;
+	color:var(--red);
 }
 h5 a:hover{ 
-	color:var(--p-darkpurple)!important;
-	border-bottom: 1px solid var(--p-darkpurple);
+	color:var(--grey)!important;
+	text-decoration: underline;
 }
 h6 {
-	font-size:18px;
-	color: black;
-	font-family:Lato;
-	font-weight:300;
+	font-size:1rem;
+	color: var(--navy);
+	font-family:Roboto;
+	font-weight:400;
 }
 p {
-	font-family: Lato, sans-serif;
+	font-family: Roboto;
 	font-size: 1em;
-	font-weight: 300;
-	line-height: 22px;
-	color:black;
+	font-weight: 400;
+	color:var(--navy);
 }
 span {
 	font-weight:bold;
 	font-style: normal;
-	color:var(--s-purple);
+	color:var(--red);
 }
 label {
-	font-family: Lato;
+	font-family: Roboto;
 	font-size:1rem;
-	color:var(--p-navy);
+	color:var(--navy);
 	font-weight:300;
-}
-.footer-heading{
-	color:var(--s-purple);
-	font-family:lato;
-	font-weight:700;
-}
-.footer-icon {
-	color:var(--s-purple);
-}
-.footer-text{ 
-	font-family:Lato;
-	font-weight:300;
-	font-size:15px;
-}
-.footer-link {
-	color:var(--p-navy);
-}
-.footer-link:hover{
-	color:var(--s-purple);
-	text-decoration: underline;
-}
-.navbar {
-	background-color: white;
-	font-family: 'Playfair Display';
-}
-.nav-link, .dropdown-item {
-	font-size:1.1rem;
-	color: var(--p-navy);
-}
-.nav-link:focus, .nav-link:hover, .nav-tabs .nav-link.active {
-	color:var(--s-purple);
-}
-.nav-tabs .nav-link.active {
-	border-color:var(--s-purple);
-}
-.nav-text {
-	padding-top:1rem;
 }
 
 .overlay-text {
@@ -148,30 +104,25 @@ label {
 	text-shadow: 20px 20px 10px #000000;
 }
 .sub-heading {
-	font-family: Lato, sans-serif;
+	font-family: Roboto;
 	font-size: 24px;
-	font-style: normal;
 	font-weight: 300;
-	letter-spacing: normal;
+	letter-spacing: 1px;
 	line-height: 30px;
-	text-transform: none;
-	color:var(--s-purple);
+	color:var(--s-darkred);
 }
 .about-list-item {
-	font-family:Lato;
+	font-family:Roboto;
 	font-weight:300;
 	font-size:15px;
 }
 .publicity-icons {
-	font-size:2rem;
-	color:var(--s-purple);
+	font-size:2.5rem;
+	color:var(--gold);
 }
 .publicity-par {
-	color: var(--p-navy);
-	font-size:16px;
-}
-.quote {
-	font-style:italic;
+	color: black;
+	font-size:1rem;
 }
 .hero-image {
 	background: url(../images/hero_image.png) no-repeat center center!important;
@@ -202,11 +153,15 @@ label {
 	max-width:auto;
 }
 .btn {
-    background-color:var(--s-gold);
 	color:white;
+	background-color:var(--grey);
 	font-size:12px;
 	font-weight:400;
-	font-family:Lato;
+	font-family:Roboto;
+}
+.btn:hover {
+	color:white;
+	background-color:var(--red)
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
 	color:white;

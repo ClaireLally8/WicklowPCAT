@@ -1,0 +1,37 @@
+.navbar {
+	background-color: white;
+	font-family: 'Playfair Display';
+}
+.nav-link, .dropdown-item {
+	font-size:1.1rem;
+	color: var(--navy);
+}
+.nav-link:focus, .nav-link:hover, .nav-tabs .nav-link.active {
+	color:var(--red);
+}
+.nav-tabs .nav-link.active {
+	border-color:var(--red);
+}
+.nav-text {
+	padding-top:1rem;
+}
+.footer-heading{
+	color:var(--red);
+	font-family:Roboto;
+	font-weight:700;
+}
+.footer-icon {
+	color:var(--red);
+}
+.footer-text{ 
+	font-family:Roboto;
+	font-weight:300;
+	font-size:15px;
+}
+.footer-link {
+	color:var(--navy);
+}
+.footer-link:hover{
+	color:var(--red);
+	text-decoration: underline;
+}
