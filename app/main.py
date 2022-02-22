@@ -20,7 +20,7 @@ def arts_about():
 def services():
   return render_template('services.html')
 
-@app.route('/theraputic-space')
+@app.route('/therapeutic-space')
 def the_space():
   return render_template('the_space.html')
 

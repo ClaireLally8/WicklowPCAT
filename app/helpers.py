@@ -1,6 +1,6 @@
 faq = [{
   "question": "What is Play Therapy?",
-  "answer": "The aim of play therapy is to create a trusting, empathic space in which the young person can feel safe and express their feelings and emotions freely. It helps them learn it is OK to feel and teaches them how to cope with feelings in a safe and constructive way. The play therapist works with the young person through the mediums of Sand, Art, Music, Movement, Puppets, Therapeutic Stories and Drama. Play therapy allows children to change the way they think about, feel toward, and resolve their concerns (Kaugars & Russ, 2001). Even the most troubling problems can be confronted in play therapy and lasting resolutions can be discovered, rehearsed, mastered and adapted into lifelong strategies (Russ, 2004)."
+  "answer": "The aim of play therapy is to create a trusting, empathic space in which the young person can feel safe to express their feelings and emotions freely. It helps them learn it is OK to feel and teaches them how to cope with feelings in a safe and constructive way. The play therapist works with the young person through the mediums of Sand, Art, Music, Movement, Puppets, Therapeutic Stories and Drama. Play therapy allows children to change the way they think about, feel toward, and resolve their concerns (Kaugars & Russ, 2001). Even the most troubling problems can be confronted in play therapy and lasting resolutions can be discovered, rehearsed, mastered and adapted into lifelong strategies (Russ, 2004)."
 },
 {
   "question": "What is Environmental Art Therapy?",
