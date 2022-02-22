@@ -4,12 +4,14 @@ window.onload = function() {
     {
         event.preventDefault();
         // these IDs from the previous steps
-        emailjs.sendForm('service_8ylivso', 'template_j91b1y4', contactForm)
+        emailjs.sendForm('service_81ea4ap', 'template_bql1vla', contactForm)
             .then(function() {
                 contactForm.reset();
                 alert("Message sent successfully,  Madeleine will get back to you shortly!");
             }, function(error) {
                 alert("Uh oh! It looks like there was an error in your form,  please try that again!");
+                console.log(error)
+                
             });
     });
 }
