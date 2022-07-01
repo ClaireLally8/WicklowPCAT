@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+:root {
+	--dark-green:#384727;
+	--dark-green-transparent: rgba(56,71,39,0.4);
+	--green:#357560;
+	--gold:#CABDAF;
+	--transparent-gold: rgba(202,189,175,0.4);
+}
+* {
+	box-sizing: border-box;
+}
+*:before, *:after {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	position: relative;
+}
+footer {
+	width: 100%;
+	padding-top:5px;
+	box-shadow: 0px 2px 4px;
+}
+h1 {
+	font-size: 2.6em;
+	font-weight: 700;
+	line-height: 60px;
+	font-family:'Playfair Display';
+}
+h2 {
+	font-family:"Nunito Sans";
+	text-transform: uppercase;
+	font-weight:200;
+	font-size:1.3rem;
+}
+h4 {
+	color:var(--dark-green);
+	font-family: "Nunito Sans";
+	text-transform:uppercase;
+	font-weight:200;
+	font-size:1.1rem;
+}
+h5 {
+	font-family:"Nunito Sans";
+	color:var(--dark-green);
+	font-size:1.2rem;
+}
+h6 {
+	font-size:0.9rem;
+	color:var(--green);
+	font-family:"Nunito Sans";
+}
+p {
+	font-family:"Nunito Sans";
+}
+.what-is-par{
+	color:var(--dark-green);
+}
+.btn {
+	background-color:var(--green);
+	color:white;
+}
+.btn:hover {
+	color:white;
+	text-decoration: underline;
+}
+a:hover {
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-size: 20%;
+	border-bottom: 0;
+	padding-bottom: .3em;
+	text-decoration: none;
+}
+.dark-url {
+	color:white;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.dark-url:hover{
+	color:white;
+}
+.main-container {
+	min-height: 100vh;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+.background-color{
+	background-color:var(--green);
+    color:white;
+}
+.background-color-light{
+	background-color: var(--transparent-gold);
+}
+.row>*{
+	padding-left:0;
+	padding-right:0;
+}
+.overlay-text {
+	color:white;
+	text-shadow: 20px 20px 10px #000000;
+}
+.hero-image {
+	background: url(../images/hero_image.png) no-repeat center center!important;
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.hero-outer {
+	width: 100%;
+	position: relative;
+}
+#cover-text{
+	letter-spacing: 2px;
+	position:absolute;
+	top: 30%;
+	left:35%;
+}
+.image-stack {
+    width:100%;
+    position:relative;
+	margin-left:2rem;
+}
+.stack-top {
+    position: absolute;
+    left: 30%;
+    width:60%;
+    top: 10%;
+}
+.overlay {
+	background-color: var(--dark-green-transparent);
+}
+.card {
+	border-radius: 0!important;
+	margin:10px;
+}
+.what-icon {
+	font-size:40px;
+}
+.contact-link{
+	color:white;
+}
+.contact-link:hover {
+	color:white;
+}
+@media (max-width:600px){
+	#cover-text {
+		left:10%;
+		top:6%;
+	}
+}
+@media (max-width:767px){
+	.stack-top {
+		position: relative;
+		width:100%;
+		left:0;
+	}
+	.image-stack{
+		margin-left:0;
+	}
+
+}
+@media (min-width:1725px){
+	.hero-image {
+		opacity: 0.8;
+		background:url(../images/hero_image_XLSCREEN.jpeg)no-repeat center center!important;
+		height: 400px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+}

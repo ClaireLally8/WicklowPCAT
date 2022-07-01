@@ -1,0 +1,37 @@
+.navbar {
+	background-color: white;
+	font-family: 'Playfair Display';
+}
+.nav-link {
+	font-size:1.1rem;
+    color:var(--dark-green);
+
+}
+.nav-link:focus, .nav-link:hover, .nav-tabs .nav-link{
+    color:var(--green)
+}
+.nav-tabs .nav-link.active{
+    border-color:var(--green);
+    color:var(--green);
+}
+.nav-text {
+	padding-top:1rem;
+}
+.footer-heading {
+	color:var(--dark-green);
+	font-family: "Nunito Sans";
+	font-size: 0.97rem;
+}
+.footer-text {
+	font-family:"Nunito Sans";
+	font-size:0.85rem;
+	color:var(--dark-green);
+}
+.footer-link {
+	font-family:"Nunito Sans";
+	font-size:0.85rem;
+	color:var(--dark-green);
+}
+.footer-link:hover{
+	color:var(--dark-green);
+}

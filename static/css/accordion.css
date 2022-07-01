@@ -1,0 +1,67 @@
+button.accordion {
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    color: var(--dark-green);
+    background-color: transparent;
+    border-bottom:1px var(--dark-green) solid;
+    cursor: pointer;
+    font-family:"Nunito Sans";
+    transition: background-color 0.2s linear;
+  }
+  
+  button.accordion:after {
+    content: '\f13a';
+    font-family: "fontawesome";
+    font-size: 20px;
+    float: right;
+  
+  }
+  button.accordion.is-open:after {
+    content: '\f139';
+  }
+  button.accordion:hover,
+  button.accordion.is-open {
+    color: var(--dark-green);
+    -webkit-transition: background-color 300ms linear, color 1s linear;
+    -moz-transition: background-color 300ms linear, color 1s linear;
+    -o-transition: background-color 300ms linear, color 1s linear;
+    -ms-transition: background-color 300ms linear, color 1s linear;
+    transition: background-color 300ms linear, color 1s linear;
+  }
+  .accordionhead {
+      font-family: Roboto;
+      font-weight:300;
+      letter-spacing: 0.2px;
+  }
+  .accordion-content {
+    padding: 0 1.2rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+  
+  .accordioncontainer {
+    margin-top: 3rem;
+    width: 80%;
+  }
+  .accordionicon {
+      color:white;
+      text-decoration:none;
+  }
+  .accordionicon:hover {
+      color: white;
+      -webkit-transition: color 1s;
+      -moz-transition:    color 1s;
+      -ms-transition:     color 1s;
+      -o-transition:      color 1s;
+  }
+  .accordioninside {
+      padding:0.2rem;
+      font-family: "Nunito Sans";
+      font-weight: 300;
+      letter-spacing: 0.3px;
+      line-height:20px;
+  }
