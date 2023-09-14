@@ -98,6 +98,17 @@ label {
 	color:var(--navy);
 	font-weight:300;
 }
+.external-link {
+	font-family:Roboto;
+	color:var(--red);
+	font-weight:500;
+}
+.external-link:hover {
+	font-family:Roboto;
+	color:var(--red);
+	font-weight:500;
+	text-decoration:underline;
+}
 
 .overlay-text {
 	color:white;
