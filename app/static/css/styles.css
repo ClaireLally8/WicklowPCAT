@@ -199,3 +199,10 @@ label {
 		background-position: center;
 	}
 }
+hr {
+	border: none;
+	height: 1px;
+	background-color: var(--red);
+	width: 33%;
+	margin: 20px auto;
+}

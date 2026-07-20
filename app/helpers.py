@@ -4,7 +4,7 @@ faq = [{
 },
   {
   "question": "What is Play Therapy?",
-  "answer": "The aim of play therapy is to create a trusting, empathic space in which the young person can feel safe to express their feelings and emotions freely. It helps them learn it is OK to feel and teaches them how to cope with feelings in a safe and constructive way. The play therapist works with the young person through the mediums of Sand, Art, Music, Movement, Puppets, Therapeutic Stories and Drama. Play therapy allows children to change the way they think about, feel toward, and resolve their concerns (Kaugars & Russ, 2001). Even the most troubling problems can be confronted in play therapy and lasting resolutions can be discovered, rehearsed, mastered and adapted into lifelong strategies (Russ, 2004)."
+  "answer": "Sometimes children experience difficulties which in turn cause them to behave in ways that may cause disruption to their lives or be of concern to those around them.  Just as adults may ‘talk out’ difficult issues Play Therapy provides a child with the space to 'play out' their thoughts and feelings. The therapeutic relationship between the child and the therapist and the safe space this provides plays a vital role in enabling children to resolve their difficulties and to reach their potential. Play therapy may be non-directive (where the child decides what to do in a session, within safe boundaries) or directive (where the therapist leads the way) or a mixture of the two. It is particularly effective with children who cannot, or do not want to talk about their problems. Play Therapy is suitable for children aged from 3 years of age and there is no one too old who will not benefit from the creative arts!"
 },
 {
   "question": "What is a Play Therapist?",
